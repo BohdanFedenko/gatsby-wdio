@@ -13,28 +13,28 @@ describe('Home page spec', () => {
 
     beforeEach(() => {
         logPreCondition(1, 'Open Home Page');
-        browser.url('http://localhost:8000');
+        browser.url('https://metanit.com/web/javascript/');
     })
 
-    afterEach(() => {
-        logPostCondition(1, 'Clear Cookies');
-    })
+    // afterEach(() => {
+    //     logPostCondition(1, 'Clear Cookies');
+    // })
 
     //Passed test
     it('Passed test', () => {
-        log(1, 'Check Home page title')
-        headerSteps.checkTitle(mainProperties.title());
+        // log(1, 'Check Home page title')
+        // headerSteps.checkTitle(mainProperties.title());
     })
 
-    //Failed test
-    it('Failed test', () => {
-        log(1, 'Check Home page title')
-        headerSteps.checkTitle(mainProperties.wrongTitle());
-    })
-
-    //Skipped test
-    it.skip('Skipped test', () => {
-        log(1, 'Check Home page title')
-        headerSteps.checkTitle(mainProperties.title());
-    })
+    // //Failed test
+    // it('Failed test', () => {
+    //     log(1, 'Check Home page title')
+    //     headerSteps.checkTitle(mainProperties.wrongTitle());
+    // })
+    //
+    // //Skipped test
+    // it.skip('Skipped test', () => {
+    //     log(1, 'Check Home page title')
+    //     headerSteps.checkTitle(mainProperties.title());
+    // })
 })

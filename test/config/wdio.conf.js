@@ -1,93 +1,14 @@
 import allure from '@wdio/allure-reporter';
 
-const drivers = {
-    chrome: {version: 'latest'}, // https://chromedriver.chromium.org/
-    firefox: {version: 'latest'}, // https://github.com/mozilla/geckodriver/releases
-    chromiumedge: { version: 'latest' } // https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-}
-
-let safariCapabilities = {
-    'bstack:options': {
-        "os": "OS X",
-        "osVersion": "Big Sur",
-        "resolution": "1920x1080",
-        "local": "true",
-        "debug": "true",
-        "networkLogs": "true",
-        "seleniumVersion": "3.14.0",
-        'safari': {
-            "allowAllCookies": "true",
-        }
-    },
-    "browserName": "Safari",
-    "browserVersion": "14.0"
-}
-
 exports.config = {
-
-    //BrowserStack ACCESS KEY
-    user: '',
-    key: '',
 
     runner: 'local',
 
-    //Options for a test run
-    specs: [
-        'test/tests/*.js'
-    ],
     exclude: [
         // 'path/to/excluded/files'
     ],
 
     maxInstances: 1,
-
-    capabilities: [
-
-        //Leave the desired browsers uncommented to run them
-
-        {
-            maxInstances: 1,
-            browserName: 'chrome',
-            'goog:chromeOptions': {
-                prefs: {
-                    'intl.accept_languages': 'en,EN'
-                },
-
-                //Switch on/off headless mode in Chrome
-
-                args: [
-                    'headless',
-                    'lang=en',
-                    // Use --disable-gpu to avoid an error from a missing Mesa
-                    // library, as per
-                    // https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md
-                    'disable-gpu',
-                    'window-size=1980,1080'
-                ],
-            },
-            acceptInsecureCerts: true
-        },
-        {
-            maxInstances: 1,
-            browserName: 'firefox',
-            'moz:firefoxOptions': {
-                prefs: {
-                    'intl.accept_languages': 'en,EN'
-                },
-
-                //Switch on/off headless mode in Firefox
-                args: ['-headless']
-            },
-        },
-        {
-            browserName: 'MicrosoftEdge',
-        }
-
-        //It works only in BrowserStack. Should uncommented for work
-
-        // safariCapabilities
-
-    ],
 
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
@@ -102,25 +23,6 @@ exports.config = {
 
     connectionRetryCount: 3,
 
-    services: [
-
-        //It runs any browsers in BrowserStack
-
-        // ['browserstack', {
-        //     browserstackLocal: true
-        // }],
-
-        //It runs only Chrome and Firefox browser locally
-
-        ['selenium-standalone',
-            {
-                logPath: 'logs',
-                installArgs: {drivers}, // drivers to install
-                args: {drivers} // drivers to use
-            },
-        ],
-    ],
-
     framework: 'mocha',
 
     reporters: ['spec', ['allure', {
@@ -133,7 +35,6 @@ exports.config = {
         ui: 'bdd',
         timeout: 100000,
         // require: ['@babel/register'],
-
     },
     //
     // =====
