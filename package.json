@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@wdio/cli": "^7.9.1",
+    "@wdio/logger": "^7.7.0",
     "gatsby": "^3.11.1",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
     "gatsby-plugin-image": "^1.11.0",
@@ -20,7 +22,20 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.9.1",
+    "@wdio/browserstack-service": "^7.9.1",
+    "@wdio/local-runner": "^7.9.1",
+    "@wdio/mocha-framework": "^7.9.1",
+    "@wdio/selenium-standalone-service": "^7.8.0",
+    "@wdio/spec-reporter": "^7.9.0",
+    "chromedriver": "^92.0.1",
+    "prettier": "2.3.2",
+    "start-server-and-test": "^1.13.1",
+    "wdio-chromedriver-service": "^7.2.0"
   },
   "keywords": [
     "gatsby"
@@ -33,7 +48,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "wdio-test": "wdio run ./wdio.conf.js",
+    "test": "start-server-and-test develop http://localhost:8000 wdio-test",
+    "allure-report": "allure generate allure-results --clean && allure open"
   },
   "repository": {
     "type": "git",
