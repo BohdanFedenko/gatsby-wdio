@@ -1,6 +1,6 @@
 export default class Header {
 
     getTitle() {
-        return browser.$('h1 a');
+        return $('h1 a');
     }
 }

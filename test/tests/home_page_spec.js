@@ -7,6 +7,7 @@ const logger = new Logger();
 const mainProperties = new MainProperties();
 const logPreCondition = logger.logPreConditionStep();
 const logPostCondition = logger.logPostConditionStep();
+const log = logger.logStep();
 
 describe('Home page spec', () => {
 
@@ -32,7 +33,7 @@ describe('Home page spec', () => {
     })
 
     //Skipped test
-    it.skip('Skipped test' , () => {
+    it.skip('Skipped test', () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.title());
     })

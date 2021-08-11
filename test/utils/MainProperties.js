@@ -1,4 +1,4 @@
-import testData from '/src/test/data/testData.json';
+import testData from '../data/url.json';
 
 export default class MainProperties {
 
