@@ -1,0 +1,62 @@
+{
+  "38195930e534ab639964d339936a7b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d05316583b88383",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/9d05316583b88383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628747175617,
+        "stop" : 1628747181790,
+        "duration" : 6173
+      }
+    } ]
+  },
+  "94ea4c0ba8185e79470b0738f985dfe2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f56f0fe17ad5bf87",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/f56f0fe17ad5bf87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628747129461,
+        "stop" : 1628747137963,
+        "duration" : 8502
+      }
+    } ]
+  },
+  "691f93e42632c1075536f0c901bd782d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca3caf50ba0c0e26",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/ca3caf50ba0c0e26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628747165227,
+        "stop" : 1628747171141,
+        "duration" : 5914
+      }
+    } ]
+  }
+}
