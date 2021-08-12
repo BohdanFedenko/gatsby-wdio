@@ -4,7 +4,10 @@ config.capabilities = [
     {
         browserName: 'safari',
         maxInstances: 1,
-        "safariOptions": {technologyPreview: true}
+        "safariOptions": {
+            technologyPreview: true
+        },
+        acceptInsecureCerts: true
     }
 ];
 
