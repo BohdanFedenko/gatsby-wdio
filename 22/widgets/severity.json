@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7e1df9d47ff0b93",
+  "name" : "Passed test",
+  "time" : {
+    "start" : 1628800231241,
+    "stop" : 1628800237378,
+    "duration" : 6137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
