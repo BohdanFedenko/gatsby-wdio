@@ -4,7 +4,6 @@ config.capabilities = [
     {
         maxInstances: 1,
         browserName: 'chrome',
-        port: 4444,
         'goog:chromeOptions': {
             prefs: {
                 'intl.accept_languages': 'en,EN'
@@ -24,8 +23,7 @@ config.capabilities = [
         }
     },
     {
-        browserName: 'safari',
-        port: 4445
+        browserName: 'safari'
     }
 ];
 
