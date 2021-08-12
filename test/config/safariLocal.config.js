@@ -3,7 +3,8 @@ const {config} = require('./wdio.conf');
 config.capabilities = [
     {
         browserName: 'safari',
-        port: 4445
+        maxInstances: 1,
+        "safariOptions": {technologyPreview: true}
     }
 ];
 
