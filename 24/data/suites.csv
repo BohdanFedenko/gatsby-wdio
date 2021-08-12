@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 12 20:46:28 GMT 2021","Thu Aug 12 20:46:33 GMT 2021","4496","","Home page spec","","Home page spec","Passed test","Passed test","Generating Allure reports Passed test"

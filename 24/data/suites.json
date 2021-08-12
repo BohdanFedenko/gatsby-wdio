@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "3f3188d27512c6ad",
+      "parentUid" : "4c4848ba4dbc4388c8d9c1685661aad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628801188782,
+        "stop" : 1628801193278,
+        "duration" : 4496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "4c4848ba4dbc4388c8d9c1685661aad2"
+  } ],
+  "name" : "suites"
+}
