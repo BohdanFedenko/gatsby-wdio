@@ -8,6 +8,7 @@ config.capabilities = [
             technologyPreview: true
         },
         port: 4445,
+        path: '/wd/hub/',
         acceptInsecureCerts: true
     }
 ];
