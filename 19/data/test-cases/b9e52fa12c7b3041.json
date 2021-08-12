@@ -1,0 +1,96 @@
+{
+  "uid" : "b9e52fa12c7b3041",
+  "name" : "Passed test",
+  "fullName" : "Home page spec.Passed test",
+  "historyId" : "691f93e42632c1075536f0c901bd782d",
+  "time" : {
+    "start" : 1628797919880,
+    "stop" : 1628797929935,
+    "duration" : 10055
+  },
+  "description" : "Generating Allure reports Passed test",
+  "descriptionHtml" : "<p>Generating Allure reports Passed test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page spec"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page spec"
+  }, {
+    "name" : "testMethod",
+    "value" : "Passed test"
+  }, {
+    "name" : "package",
+    "value" : "Home page spec"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-90.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4afef30d2678e4c7",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/18//#testresult/4afef30d2678e4c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628797226475,
+          "stop" : 1628797232618,
+          "duration" : 6143
+        }
+      }, {
+        "uid" : "a24638939712cb01",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/17//#testresult/a24638939712cb01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628796049620,
+          "stop" : 1628796060047,
+          "duration" : 10427
+        }
+      }, {
+        "uid" : "d80e7ea404b10d5f",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/16//#testresult/d80e7ea404b10d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628795358161,
+          "stop" : 1628795368388,
+          "duration" : 10227
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b9e52fa12c7b3041.json",
+  "parameterValues" : [ "firefox-90.0.2" ]
+}
