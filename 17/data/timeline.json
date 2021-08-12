@@ -1,0 +1,82 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "7a85c035e9b6b636",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628796210825,
+        "stop" : 1628796216731,
+        "duration" : 5906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-92.0.4515.131" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "57216bf4c1847e38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628795989702,
+        "stop" : 1628795994879,
+        "duration" : 5177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "39103e7b0ed774f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628796012199,
+        "stop" : 1628796020809,
+        "duration" : 8610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "2-0",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "dd681d49b3fabfc8",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628796064919,
+        "stop" : 1628796069737,
+        "duration" : 4818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "msedge-92.0.902.67" ]
+    } ],
+    "uid" : "7b1daf7a03b1e0269c064c8965966bc1"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "a24638939712cb01",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628796049620,
+        "stop" : 1628796060047,
+        "duration" : 10427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-90.0.2" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
+  } ],
+  "name" : "timeline"
+}

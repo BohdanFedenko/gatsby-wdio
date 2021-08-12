@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 12 19:23:30 GMT 2021","Thu Aug 12 19:23:36 GMT 2021","5906","","Home page spec","","Home page spec","Passed test","Passed test","Generating Allure reports Passed test"
+"passed","Thu Aug 12 19:20:12 GMT 2021","Thu Aug 12 19:20:20 GMT 2021","8610","","Home page spec","","Home page spec","Passed test","Passed test","Generating Allure reports Passed test"
+"passed","Thu Aug 12 19:20:49 GMT 2021","Thu Aug 12 19:21:00 GMT 2021","10427","","Home page spec","","Home page spec","Passed test","Passed test","Generating Allure reports Passed test"
+"passed","Thu Aug 12 19:21:04 GMT 2021","Thu Aug 12 19:21:09 GMT 2021","4818","","Home page spec","","Home page spec","Passed test","Passed test","Generating Allure reports Passed test"
