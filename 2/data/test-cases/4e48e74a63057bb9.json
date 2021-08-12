@@ -1,0 +1,78 @@
+{
+  "uid" : "4e48e74a63057bb9",
+  "name" : "Passed test",
+  "fullName" : "Home page spec.Passed test",
+  "historyId" : "691f93e42632c1075536f0c901bd782d",
+  "time" : {
+    "start" : 1628748005348,
+    "stop" : 1628748011363,
+    "duration" : 6015
+  },
+  "description" : "Generating Allure reports Passed test",
+  "descriptionHtml" : "<p>Generating Allure reports Passed test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page spec"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page spec"
+  }, {
+    "name" : "testMethod",
+    "value" : "Passed test"
+  }, {
+    "name" : "package",
+    "value" : "Home page spec"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-90.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ca3caf50ba0c0e26",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/ca3caf50ba0c0e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628747165227,
+          "stop" : 1628747171141,
+          "duration" : 5914
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e48e74a63057bb9.json",
+  "parameterValues" : [ "firefox-90.0.2" ]
+}
