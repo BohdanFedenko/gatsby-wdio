@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Passed test",
+    "uid" : "d5be8af2f20bfbe0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628758875068,
+      "stop" : 1628758883742,
+      "duration" : 8674
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.131" ]
+  }, {
+    "name" : "Passed test",
+    "uid" : "b4bd1782a4d4f8c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628758913950,
+      "stop" : 1628758919585,
+      "duration" : 5635
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-90.0.2" ]
+  }, {
+    "name" : "Passed test",
+    "uid" : "a74007ad8bb17173",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628758924908,
+      "stop" : 1628758931365,
+      "duration" : 6457
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "msedge-92.0.902.67" ]
+  } ],
+  "name" : "behaviors"
+}

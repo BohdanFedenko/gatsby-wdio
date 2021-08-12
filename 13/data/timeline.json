@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "5b84a9a61c217946",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628758863393,
+        "stop" : 1628758873494,
+        "duration" : 10101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "d5be8af2f20bfbe0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628758875068,
+        "stop" : 1628758883742,
+        "duration" : 8674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "2-0",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "a74007ad8bb17173",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628758924908,
+        "stop" : 1628758931365,
+        "duration" : 6457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "msedge-92.0.902.67" ]
+    } ],
+    "uid" : "7b1daf7a03b1e0269c064c8965966bc1"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "b4bd1782a4d4f8c3",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628758913950,
+        "stop" : 1628758919585,
+        "duration" : 5635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-90.0.2" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
+  } ],
+  "name" : "timeline"
+}
