@@ -21,7 +21,7 @@ describe('Home page spec', () => {
     // })
 
     //Passed test
-    it('Passed test ' + '[' + platform.toUpperCase() + ']', () => {
+    it('Passed test', () => {
         // log(1, 'Check Home page title')
         // headerSteps.checkTitle(mainProperties.title());
     })
