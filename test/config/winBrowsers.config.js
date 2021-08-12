@@ -3,7 +3,7 @@ const {config} = require('./wdio.conf');
 const drivers = {
     chrome: {version: 'latest'}, // https://chromedriver.chromium.org/
     firefox: {version: 'latest'}, // https://github.com/mozilla/geckodriver/releases
-    chromiumedge: {version: '92.0.902.67'} // https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+    chromiumedge: {version: 'latest'} // https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 }
 
 config.capabilities = [
