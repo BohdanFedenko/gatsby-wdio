@@ -54,6 +54,7 @@
     "macSafariBS": "wdio run test/config/safari.config.js",
     "winBrowsers": "wdio run test/config/winBrowsers.config.js",
     "safariLocal": "wdio run test/config/safariLocal.config.js",
+    "chromeMacOs": "wdio run test/config/chromeMacOS.config.js",
     "test": "start-server-and-test develop http://localhost:8000 wdio-test",
     "allure-report": "allure generate allure-results --clean && allure open"
   },
