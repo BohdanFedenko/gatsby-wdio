@@ -102,6 +102,7 @@ exports.config = {
      */
     beforeTest: function (test, context) {
         global.browsersName = browser.capabilities.browserName;
+        global.platform = browser.capabilities.platform;
         allure.addEnvironment("BROWSER", browser.capabilities.browserName);
         allure.addDescription("Generating Allure reports " + test.title);
     },

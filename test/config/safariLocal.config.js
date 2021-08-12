@@ -2,7 +2,8 @@ const {config} = require('./wdio.conf');
 
 config.capabilities = [
     {
-        browserName: 'safari'
+        browserName: 'safari',
+        port: 4445
     }
 ];
 
