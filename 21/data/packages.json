@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Home page spec",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "a118420014b77125",
+      "parentUid" : "afb751d95c0ba0f139f0cc75d2615a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628799463885,
+        "stop" : 1628799469823,
+        "duration" : 5938
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "afb751d95c0ba0f139f0cc75d2615a99"
+  } ],
+  "name" : "packages"
+}
