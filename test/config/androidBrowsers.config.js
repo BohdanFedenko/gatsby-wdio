@@ -1,15 +1,15 @@
 const {config} = require('./wdio.conf');
-const androidInfo = require('./android.info');
+// const androidInfo = require('./android.info');
 
 // appium capabilities
 config.capabilities = [
     {
-        platformName: 'iOS',
-        browserName: 'Safari',
+        platformName: 'Android',
+        browserName: 'Chrome',
         automationName: 'uiautomator2',
         maxInstances: 1,
-        deviceName: androidInfo.deviceName,
-        platformVersion: androidInfo.platformVersion
+        deviceName: 'Pixel 3',
+        platformVersion: '11.0'
     }
 ];
 
@@ -23,6 +23,11 @@ config.appium = {
     command: 'appium',
     args: {},
 },
+    config.appium = {
+        command: 'appium'
+    }
 config.port = 4723,
+    config.path = '/wd/hub',
+
 
     exports.config = config;
