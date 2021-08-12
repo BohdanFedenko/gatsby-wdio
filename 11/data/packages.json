@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Home page spec",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "c8659829e13d9606",
+      "parentUid" : "afb751d95c0ba0f139f0cc75d2615a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628756654647,
+        "stop" : 1628756666738,
+        "duration" : 12091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "2e2732de4ca0b422",
+      "parentUid" : "afb751d95c0ba0f139f0cc75d2615a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628756672597,
+        "stop" : 1628756678363,
+        "duration" : 5766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-90.0.2" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "e4e0e62fe10bf79a",
+      "parentUid" : "afb751d95c0ba0f139f0cc75d2615a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628756683328,
+        "stop" : 1628756689444,
+        "duration" : 6116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "msedge-92.0.902.67" ]
+    } ],
+    "uid" : "afb751d95c0ba0f139f0cc75d2615a99"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "https://BohdanFedenko.github.io/gatsby-wdio" ],
+  "name" : "URL"
+}, {
+  "values" : [ "msedge" ],
+  "name" : "BROWSER"
+} ]
