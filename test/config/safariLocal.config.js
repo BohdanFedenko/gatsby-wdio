@@ -4,6 +4,7 @@ config.capabilities = [
     {
         maxInstances: 1,
         browserName: 'chrome',
+        port: 4444,
         'goog:chromeOptions': {
             prefs: {
                 'intl.accept_languages': 'en,EN'
@@ -20,18 +21,11 @@ config.capabilities = [
                 'disable-gpu',
                 'window-size=1980,1080'
             ],
-        },
-        acceptInsecureCerts: true
+        }
     },
     {
         browserName: 'safari',
-        maxInstances: 1,
-        "safariOptions": {
-            technologyPreview: true,
-            allowAllCookies: true
-        },
-        port: 4445,
-        acceptInsecureCerts: true
+        port: 4445
     }
 ];
 
