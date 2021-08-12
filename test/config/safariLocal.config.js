@@ -7,6 +7,7 @@ config.capabilities = [
         "safariOptions": {
             technologyPreview: true
         },
+        port: 4445,
         acceptInsecureCerts: true
     }
 ];
