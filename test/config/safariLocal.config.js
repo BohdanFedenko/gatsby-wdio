@@ -20,7 +20,8 @@ config.capabilities = [
                 'disable-gpu',
                 'window-size=1980,1080'
             ],
-        }
+        },
+        acceptInsecureCerts: true
     },
     {
         browserName: 'safari'

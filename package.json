@@ -37,6 +37,7 @@
     "allure-commandline": "^2.13.8",
     "chromedriver": "^92.0.1",
     "prettier": "2.3.2",
+    "wdio-chromedriver-service": "^7.2.0",
     "wdio-safaridriver-service": "0.0.1"
   },
   "keywords": [
