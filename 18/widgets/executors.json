@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://BohdanFedenko.github.io/gatsby-wdio",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #1125197037",
+  "buildUrl" : "https://github.com/BohdanFedenko/gatsby-wdio/actions/runs/1125197037",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/18/"
+} ]
