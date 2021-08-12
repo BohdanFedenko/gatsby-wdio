@@ -46,7 +46,7 @@ jobs:
     # Otherwise, defaults to `master`.
             ref: 'Testing'
       - name: Npm clear cash
-        run:  npm run clear cash 
+        run:  npm run clean cash 
       - name: NPM Install
         run: npm install
       - name: Run tests on windows browser (Chrome, Firefox, Edge)
