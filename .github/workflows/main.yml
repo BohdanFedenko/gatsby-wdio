@@ -44,9 +44,7 @@ jobs:
     # The branch, tag or SHA to checkout. When checking out the repository that
     # triggered a workflow, this defaults to the reference or SHA for that event.
     # Otherwise, defaults to `master`.
-            ref: 'Testing'
-      - name: Npm clear cash
-        run:  npm run clean cash 
+            ref: 'Testing' 
       - name: NPM Install
         run: npm install
       - name: Run tests on windows browser (Chrome, Firefox, Edge)
