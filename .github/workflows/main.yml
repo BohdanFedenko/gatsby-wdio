@@ -75,6 +75,7 @@ jobs:
       - name: 'NPM Install'
         run: npm install
       - name: Run in Safari first time 
+        shell: bash
         run: safaridriver --enable
       - name: Run in Safari  
         run: npm run safariLocal         
