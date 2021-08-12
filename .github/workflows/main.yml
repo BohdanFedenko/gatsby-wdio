@@ -99,7 +99,7 @@ jobs:
             ref: 'Testing'
       - name: 'NPM Install'
         run: npm install
-      - name: Run in Safari
+      - name: Run in Chrome
         run: npm run chromeMacOs        
 # Upload artifacts
       - name: Upload allure-results
