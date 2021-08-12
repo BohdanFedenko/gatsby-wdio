@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d80e7ea404b10d5f",
+  "name" : "Passed test",
+  "time" : {
+    "start" : 1628795358161,
+    "stop" : 1628795368388,
+    "duration" : 10227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43d6a413f11edfb6",
+  "name" : "Passed test",
+  "time" : {
+    "start" : 1628795461053,
+    "stop" : 1628795465876,
+    "duration" : 4823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18df542f698dd13e",
+  "name" : "Passed test",
+  "time" : {
+    "start" : 1628795377757,
+    "stop" : 1628795382671,
+    "duration" : 4914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
