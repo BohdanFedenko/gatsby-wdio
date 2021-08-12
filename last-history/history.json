@@ -1,4 +1,24 @@
 {
+  "7a29ba778c237fecfc1112729b63552b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e667aaa823ea49ef",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/e667aaa823ea49ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765237553,
+        "stop" : 1628765258624,
+        "duration" : 21071
+      }
+    } ]
+  },
   "38195930e534ab639964d339936a7b1a" : {
     "statistic" : {
       "failed" : 0,
@@ -88,6 +108,66 @@
         "start" : 1628750627824,
         "stop" : 1628750632653,
         "duration" : 4829
+      }
+    } ]
+  },
+  "d5a0211477ffad73c85115a40c4f4bc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ac61d9fec157166",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/4ac61d9fec157166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765270849,
+        "stop" : 1628765294941,
+        "duration" : 24092
+      }
+    } ]
+  },
+  "ea77b68c2e1551fd1154308107879bd7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e20799d5d287473",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/2e20799d5d287473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765250345,
+        "stop" : 1628765258320,
+        "duration" : 7975
+      }
+    } ]
+  },
+  "dc6c42bf59afaa77c90e1a26c9699461" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e8a0b6e869e5c91",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/9e8a0b6e869e5c91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765224731,
+        "stop" : 1628765234377,
+        "duration" : 9646
       }
     } ]
   },
@@ -183,6 +263,26 @@
       }
     } ]
   },
+  "13c3ff32995710cf04189689d87890f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a5334cfe78d2a4",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/5a5334cfe78d2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765304288,
+        "stop" : 1628765318157,
+        "duration" : 13869
+      }
+    } ]
+  },
   "691f93e42632c1075536f0c901bd782d" : {
     "statistic" : {
       "failed" : 0,
@@ -272,6 +372,46 @@
         "start" : 1628750612785,
         "stop" : 1628750622581,
         "duration" : 9796
+      }
+    } ]
+  },
+  "3176b012f996f8c4d3c40c1d62d80269" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79a20669ea717833",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/79a20669ea717833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765309375,
+        "stop" : 1628765317753,
+        "duration" : 8378
+      }
+    } ]
+  },
+  "738f97a1c72df4850778593168067b2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25a8b9183917ede0",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1//#testresult/25a8b9183917ede0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628765204243,
+        "stop" : 1628765222890,
+        "duration" : 18647
       }
     } ]
   }

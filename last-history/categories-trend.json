@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 13,
   "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/13/",
   "reportName" : "Allure Report with history",

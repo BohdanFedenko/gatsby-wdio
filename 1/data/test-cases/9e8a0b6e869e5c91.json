@@ -1,0 +1,58 @@
+{
+  "uid" : "9e8a0b6e869e5c91",
+  "name" : "Passed test",
+  "fullName" : "Home page spec.Passed test",
+  "historyId" : "dc6c42bf59afaa77c90e1a26c9699461",
+  "time" : {
+    "start" : 1628765224731,
+    "stop" : 1628765234377,
+    "duration" : 9646
+  },
+  "description" : "Generating Allure reports Passed test",
+  "descriptionHtml" : "<p>Generating Allure reports Passed test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page spec"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page spec"
+  }, {
+    "name" : "testMethod",
+    "value" : "Passed test"
+  }, {
+    "name" : "package",
+    "value" : "Home page spec"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "chrome-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e8a0b6e869e5c91.json",
+  "parameterValues" : [ "chrome-10" ]
+}

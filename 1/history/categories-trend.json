@@ -3,4 +3,51 @@
   "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/1/",
   "reportName" : "Allure Report with history",
   "data" : { }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/13/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/12/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/11/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/10/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/9/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/8/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/7/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/6/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-wdio/5/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "data" : { }
 } ]
