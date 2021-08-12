@@ -84,11 +84,36 @@ jobs:
         with:
           name: allure-results-safari-macOs
           path: allure-results
+  wdio-chrome-macOs:
+    needs:  merge
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+        with:
+    # The branch, tag or SHA to checkout. When checking out the repository that
+    # triggered a workflow, this defaults to the reference or SHA for that event.
+    # Otherwise, defaults to `master`.
+            ref: 'Testing'
+      - name: 'NPM Install'
+        run: npm install
+      - name: Run in Safari
+        run: npm run chromeMacOs        
+# Upload artifacts
+      - name: Upload allure-results
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results-chrome-macOs
+          path: allure-results
 
 #  Launch separately   
   allure:
     if: always()
-    needs: [wdio-windows-browsers, wdio-safri-macOs]
+    needs: [wdio-windows-browsers, wdio-safri-macOs, wdio-chrome-macOs]
     name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
@@ -107,6 +132,11 @@ jobs:
         continue-on-error: true
         shell: bash
         run: cp -a ~/work/gatsby-wdio/gatsby-wdio/allure-results/allure-results-safari-macOs/* ~/work/gatsby-wdio/gatsby-wdio/allure-results/
+      - name: copy file chrome-macOs
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-wdio/gatsby-wdio/allure-results/allure-results-chrome-macOs/* ~/work/gatsby-wdio/gatsby-wdio/allure-results/
 
       - name: Get Allure history
         uses: actions/checkout@v2
