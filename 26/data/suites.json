@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "cb8691510165dbc4",
+      "parentUid" : "4c4848ba4dbc4388c8d9c1685661aad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628835553859,
+        "stop" : 1628835560857,
+        "duration" : 6998
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "7c5b452250bd5bfa",
+      "parentUid" : "4c4848ba4dbc4388c8d9c1685661aad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628835593794,
+        "stop" : 1628835605121,
+        "duration" : 11327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "6a4ff3691cb12815",
+      "parentUid" : "4c4848ba4dbc4388c8d9c1685661aad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628835628719,
+        "stop" : 1628835644035,
+        "duration" : 15316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-90.0.2" ]
+    }, {
+      "name" : "Passed test",
+      "uid" : "5e5c9435dd7d01",
+      "parentUid" : "4c4848ba4dbc4388c8d9c1685661aad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628835649757,
+        "stop" : 1628835654765,
+        "duration" : 5008
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "msedge-92.0.902.67" ]
+    } ],
+    "uid" : "4c4848ba4dbc4388c8d9c1685661aad2"
+  } ],
+  "name" : "suites"
+}
