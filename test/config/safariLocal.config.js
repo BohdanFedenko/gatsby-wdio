@@ -14,4 +14,7 @@ config.services = [
     'safaridriver'
 ];
 
-exports.config = config;
+config.safaridriverArgs = ['-p 4444'], // use the specified port. Default is 4444
+    config.safaridriverLogs = './',
+
+    exports.config = config;
