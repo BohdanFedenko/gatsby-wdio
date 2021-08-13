@@ -76,12 +76,8 @@ jobs:
       - name: Run in Safari first time 
         shell: bash
         run: sudo /usr/bin/safaridriver --enable
-      - name: Install webdriver
-        shell: bash
-        run: sudo webdriver-manager update --versions.standalone 3.0.1
-      - name: Start webdriver
-        shell: bash
-        run: sudo webdriver-manager start --versions.standalone 3.0.1
+      - name: Display structure of files
+        run: ls -R
       - name: Run in Safari  
         run: npm run safariLocal         
 # Upload artifacts
