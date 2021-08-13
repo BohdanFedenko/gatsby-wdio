@@ -75,7 +75,7 @@ jobs:
         run: npm install
       - name: Run in Safari first time 
         shell: bash
-        run: sudo safaridriver --enable
+        run: sudo /usr/bin/safaridriver –enable
       - name: Run in Safari  
         run: npm run safariLocal         
 # Upload artifacts
