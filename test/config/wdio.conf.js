@@ -27,8 +27,9 @@ exports.config = {
 
     reporters: ['spec', ['allure', {
         outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
+        disableWebdriverStepsReporting: false,
         disableWebdriverScreenshotsReporting: false,
+        addConsoleLogs: true
     }]],
 
     mochaOpts: {
@@ -110,7 +111,7 @@ exports.config = {
      * beforeEach in Mocha)
      */
     beforeHook: function (test, context) {
-        browser.maximizeWindow();
+        // browser.maximizeWindow();
     },
     /**
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling

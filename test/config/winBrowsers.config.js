@@ -40,8 +40,11 @@ config.capabilities = [
             },
 
             //Switch on/off headless mode in Firefox
-            args: ['-headless']
-        },
+            args: [
+                '--headless',
+                'window-size=1980,1080'
+            ]
+        }
     },
     {
         browserName: 'MicrosoftEdge',
@@ -51,7 +54,10 @@ config.capabilities = [
             },
 
             //Switch on/off headless mode in Edge
-            args: ['-headless']
+            args: [
+                '-headless',
+                'window-size=1980,1080'
+            ]
         },
     }
 
